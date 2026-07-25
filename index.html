@@ -117,7 +117,7 @@ async function openResult() {
     status.style.color = "#007bff";
 
     try {
-        const response = await fetch("https://bedresult-production.up.railway.app/", {
+        const response = await fetch("https://prsuresult-production.up.railway.app/get-result-url", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ 
